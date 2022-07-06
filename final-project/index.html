@@ -40,7 +40,10 @@
       <!-- NEEDS BOOTSTRAP FOR 2 COLUMNS -->
       <!-- Left Column -->
       <div class="column">
-        <img src="./img/image_1.png" alt="Depression in One Picture" id="depression" class="center">
+        <div class="container">
+          <img src="./img/image_1.png" alt="Depression in One Picture" id="depression" class="center">
+          <div class="centered">Centered</div>
+        </div>
       </div>
       <!-- Right Column -->
       <div class="column">
@@ -98,12 +101,18 @@
       <div class="column column_tall">
         <h1>Contact</h1>
         <form action="" method="POST">
-          <label>Name:</label>
+          <div class="form_element">
+            <label>Name:</label>
             <input type="text" placeholder="Please enter your name here">
-          <label>Email:</label>
+          </div>
+          <div class="form_element">
+            <label>Email:</label>
             <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-          <label>Message:</label>
+          </div>
+          <div class="form_element">
+            <label>Message:</label>
             <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+          </div>
             <input type="submit" value="Submit">
         </form>
       </div>

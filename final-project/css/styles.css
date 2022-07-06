@@ -12,6 +12,13 @@
   transform: translate(-50%, -50%);
 }
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -110,4 +117,9 @@ p:hover {
 video {
   width: 500px;
   height: 700px;
+}
+
+.form_element input {
+  width: 80%;
+  float: right;
 }
