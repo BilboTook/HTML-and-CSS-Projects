@@ -1,0 +1,113 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.watermark {
+  color: rgba(255, 255, 255, 20%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#depression {
+  filter: grayscale(100%);
+  border-radius: 5px;
+}
+
+footer {
+  font-weight: bold;
+}
+
+table {
+  border: 2px solid;
+}
+
+.navbar a, th {
+  background-color: #8080f0;
+  color: #fff;
+}
+
+.navbar a:hover, th:hover {
+  background-color: #7090ff;
+}
+
+td {
+  background-color: #0dd;
+  color: #fff;
+}
+
+td:hover {
+  background-color: #0ff;
+}
+
+.row {
+  display: flex;
+  border: 2px solid;
+  width: 75%;
+}
+
+.column {
+  color: #000;
+  flex: 50%;
+  height: 300px;
+  width: 200px;
+}
+
+p:hover {
+  background-color: #00d0ff;
+}
+
+.overlay_container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay_image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.overlay_container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+video {
+  width: 500px;
+  height: 700px;
+}
